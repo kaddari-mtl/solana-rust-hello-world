@@ -2,3 +2,5 @@ src/program/Cargo.lock
 src/program/target/
 node_modules/
 package-lock.json
+dist/program/program.so
+dist/program/program-keypair.json

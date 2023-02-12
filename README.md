@@ -47,3 +47,9 @@ and it will returns something like this :
 
 
 7. Add "scripts" and more "Dependencies and Dev-Dependencies" to "package.json
+
+
+8. Install the packages and run the "build:program" script :
+
+    npm install
+    npm run build:program
