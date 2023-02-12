@@ -44,3 +44,6 @@ and it will returns something like this :
     cd ../..
     npm init
     npm install --save @solana/web3.js
+
+
+7. Add "scripts" and more "Dependencies and Dev-Dependencies" to "package.json

@@ -1,22 +1,25 @@
 {
   "name": "solana-rust-hello-world",
   "version": "1.0.0",
-  "description": "0. Install Rust and Solana :",
+  "description": "Solana and Rust Hello world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/user1337/solana-rust-hello-world.git"
+    "start": "ts-node src/client/main.ts",
+    "clean": "npm run clean:program",
+    "build:program": "cargo build-bpf --manifest-path=./src/program/Cargo.toml --bpf-out-dir=dist/program",
+    "clean:program": "cargo clean --manifest-path=./src/program/Cargo.toml && rm -rf ./dist",
+    "test:program": "cargo test-bpf --manifest-path=./src/program/Cargo.toml"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/user1337/solana-rust-hello-world/issues"
-  },
-  "homepage": "https://github.com/user1337/solana-rust-hello-world#readme",
   "dependencies": {
-    "@solana/web3.js": "^1.73.2"
+    "@solana/web3.js": "^1.73.0",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/mz": "^2.7.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.5"
   }
 }
