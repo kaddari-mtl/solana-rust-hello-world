@@ -78,3 +78,38 @@ and it will returns something like :
 Launching client...
 --Pinging Program  Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG
 Transaction sent with hash: 5H8E3aEQgjjVgzA2SHyp5myqQxeCQtZNPvh6oSC1JACD6VZ3vVFkivmB3uKaq8L9iSmWXx2yMj17amaQBnRwM49G
+
+
+12. Read the Transaction :
+
+    solana confirm -v 5H8E3aEQgjjVgzA2SHyp5myqQxeCQtZNPvh6oSC1JACD6VZ3vVFkivmB3uKaq8L9iSmWXx2yMj17amaQBnRwM49G
+
+and it will returns something like :
+
+RPC URL: https://api.devnet.solana.com
+Default Signer Path: /Users/huysonpham/.config/solana/id.json
+Commitment: confirmed
+
+Transaction executed in slot 195299361:
+  Block Time: 2023-02-12T13:04:27-05:00
+  Version: legacy
+  Recent Blockhash: 6EWYLihDhFfTg85qEaaEggGvWvkMVh9DE6iH5dCem9H7
+  Signature 0: 5H8E3aEQgjjVgzA2SHyp5myqQxeCQtZNPvh6oSC1JACD6VZ3vVFkivmB3uKaq8L9iSmWXx2yMj17amaQBnRwM49G
+  Account 0: srw- 8vEJK7EXKUgqndsXfZHfEcAd9de8KE6QZm5zqKieAaYU (fee payer)
+  Account 1: -r-x Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG
+  Instruction 0
+    Program:   Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG (1)
+    Account 0: 8vEJK7EXKUgqndsXfZHfEcAd9de8KE6QZm5zqKieAaYU (0)
+    Data: []
+  Status: Ok
+    Fee: ◎0.000005
+    Account 0 balance: ◎1 -> ◎0.999995
+    Account 1 balance: ◎0.00114144
+  Compute Units Consumed: 467
+  Log Messages:
+    Program Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG invoke [1]
+    Program log: Hello world from Huy on Solana's Network! (with Rust!)
+    Program Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG consumed 467 of 200000 compute units
+    Program Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG success
+
+Finalized
