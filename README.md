@@ -53,3 +53,12 @@ and it will returns something like this :
 
     npm install
     npm run build:program
+
+
+9.  Deployed the "built Program" :
+
+    solana program deploy ./dist/program/program.so
+
+and it will returns something like :
+
+    Program Id: Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG
