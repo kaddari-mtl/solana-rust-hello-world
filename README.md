@@ -18,3 +18,8 @@ solana-sdk = "1.9.9"
 crate-type = ["cdylib", "lib"]
 
 3. Clear and update "program/src/lib.rs"
+
+4. Build the "Program" :
+
+cd program
+cargo build-bpf
