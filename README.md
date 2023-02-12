@@ -64,3 +64,17 @@ and it will returns something like :
     Program Id: Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG
 
 10. Complete the "Client"
+
+
+11. Run the "Client" :
+
+    npm run start
+
+and it will returns something like :
+
+> solana-rust-hello-world@1.0.0 start
+> ts-node src/client/main.ts
+
+Launching client...
+--Pinging Program  Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG
+Transaction sent with hash: 5H8E3aEQgjjVgzA2SHyp5myqQxeCQtZNPvh6oSC1JACD6VZ3vVFkivmB3uKaq8L9iSmWXx2yMj17amaQBnRwM49G
