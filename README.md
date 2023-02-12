@@ -37,3 +37,10 @@ solana program deploy /Users/huysonpham/Documents/github/solana-rust-hello-world
 
 and it will returns something like this :
     Program Id: D3H4SCbd8fBWRpvFZbfk5VTN5rYT7dMRcffUUeHgeJj4
+
+
+6. Create the "Client" :
+
+    cd ../..
+    npm init
+    npm install --save @solana/web3.js

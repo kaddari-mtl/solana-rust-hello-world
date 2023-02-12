@@ -1,0 +1,22 @@
+{
+  "name": "solana-rust-hello-world",
+  "version": "1.0.0",
+  "description": "0. Install Rust and Solana :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user1337/solana-rust-hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/user1337/solana-rust-hello-world/issues"
+  },
+  "homepage": "https://github.com/user1337/solana-rust-hello-world#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.73.2"
+  }
+}
