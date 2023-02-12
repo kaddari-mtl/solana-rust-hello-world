@@ -62,3 +62,5 @@ and it will returns something like this :
 and it will returns something like :
 
     Program Id: Bdae1hhJGfNEqeUZSqHirFq39B73WeYSFUffNmZfMcZG
+
+10. Complete the "Client"
