@@ -16,3 +16,5 @@ solana-sdk = "1.9.9"
 
 [lib]
 crate-type = ["cdylib", "lib"]
+
+3. Clear and update "program/src/lib.rs"
